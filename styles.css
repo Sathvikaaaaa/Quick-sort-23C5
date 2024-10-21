@@ -13,7 +13,7 @@ body {
     background-color: #f4f4f4;
 } 
 
-/HeroSection/
+/*HeroSection*/
 .hero{
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
@@ -75,7 +75,7 @@ body {
   align-items: left;
 }
 
-/example Section/
+/*example Section*/
 .example{
   background-color: #545b66;
   padding: 150px 800px;
