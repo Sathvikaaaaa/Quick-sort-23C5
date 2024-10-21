@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Sort Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero__container">
+          <h1 class="hero__h1"><span>Quick</span>Sorting</h1>
+        </div>
+      </div>
+      <!-- About Section -->
+      <div class="main">
+        <div class="main__container">
+          <div class="main__content">
+            <h1>Quick Sort:</h1>
+            <p>Quick Sort is an efficient <strong> divide-and-conquer</strong> algorithm.
+                 It divides a large list into two smaller sublists based on a <em>pivot</em> chosen, into smaller and larger elements.
+                 Quick sort then recursively does this to the sublists finally producing a sorted list.
+                 <br><br>Average Time Complexity: O(n log n)<br>Worst Time Complexity: O(n^2)<br>Space Complexity: O(logn) 
+                 <br>Stability: Unstable<br><br><br><strong>Steps to perform</strong>
+                 <br><br><strong>Step 1:</strong> Pick an element,called the pivot.
+                 <br><strong>step 2:</strong> <em>Partitioning</em>: reorder the array so that all elements with values
+                 less than the pivot come before the pivot, while all elements with values greater than the pivot come after it. 
+                 After this Partitioning, the pivot is in its final position. This is called the Partition operation.
+                 <br><strong>Step 3:</strong> Recursively apply the above steps to the sub-array of the elementswith 
+                 smaller values and separately tothe sub-array of elements with greater values.</p>
+          </div>
+        </div>
+    </div>
+    <!-- About Section -->
+     <div class="example">
+    <h1>Quick Sort Visualization</h1>
+    <input type="text" id="inputNumbers" placeholder="Enter numbers separated by commas">
+    <div id="array-container"></div>
+    <div id="button-container">
+        <button id="generate">Generate Array</button>
+        <button id="sort">Sort Array</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
